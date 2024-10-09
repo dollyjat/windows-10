@@ -1,0 +1,16 @@
+ls=eza --icons -1 -a $* $T
+tree=eza -T --icons=auto --git-ignore $* $T
+clear=cls $* $T
+p=pnpm $* $T
+du=dua $* $T
+npx=bunx $* $T
+http=curlie $* $T
+npm=bun $* $T
+pb=pnpm build $* $T
+gc=git clone $* $T
+ex=explorer.exe . $* $T
+pnpmx=pnpm dlx $* $T
+bdev=bun run dev $* $T
+pdev=pnpm run dev $* $T
+ddev=deno task dev $* $T
+gomain=go run main.go $* $T

@@ -1,0 +1,9 @@
+{
+	".unplush": {
+		"prefix": ".unplush",
+		"body": [
+			"https://source.unsplash.com/900x500/?dark"
+		],
+		"description": "bootstrap css tag"
+	},
+}

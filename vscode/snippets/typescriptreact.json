@@ -1,0 +1,25 @@
+{
+	"await": {
+		"prefix": "jdata",
+		"description": "json data in jsx",
+		"body": [
+			"{JSON.stringify($1, null, 2)}",
+		]
+	},
+	"className with panda css": {
+		"prefix": ".cp",
+		"body": [
+			"className={css({$1 })}"
+		],
+		"description": "className with panda css"
+	},
+	"pre": {
+		"prefix": "pre",
+		"description": "view data",
+		"body": [
+			"<pre>",
+			" {JSON.stringify($0, null, 2)}",
+			"</pre>"
+		]
+	},
+}

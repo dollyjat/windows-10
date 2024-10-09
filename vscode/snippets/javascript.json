@@ -1,0 +1,61 @@
+{
+	".cl": {
+		"prefix": ".cl",
+		"body": [
+			"ClassName="
+		],
+		"description": "bootstrap css tag"
+	},
+	".unplush": {
+		"prefix": ".unplush",
+		"body": [
+			"https://source.unsplash.com/900x500/?girl"
+		],
+		"description": "bootstrap css tag"
+	},
+	"undefined": {
+		"body": [
+			"const name = () => {\r",
+			"}"
+		]
+	},
+	"Arrow Function": {
+		"prefix": "afun",
+		"body": [
+			"const name = () => {\r",
+			"    \r",
+			"}"
+		],
+		"description": "Arrow Function"
+	},
+	"log satrring": {
+		"prefix": "logs",
+		"body": [
+			"console.log(\"log\");"
+		],
+		"description": "logs"
+	},
+	"addevent": {
+		"prefix": ".addevent",
+		"body": [
+			".addEventListener(\"click\", function () {\r",
+			"    \r",
+			"})"
+		],
+		"description": "addevent"
+	},
+	"Arrow Function in ()": {
+		"prefix": "afunin",
+		"body": [
+			"() => { }"
+		],
+		"description": "Arrow Function"
+	},
+	"wait 5 secends ": {
+  "prefix": "wait5",
+  "body": [
+    "await new Promise((resolve) => setTimeout(resolve, 5000));"
+  ],
+  "description": "wait 5 secends "
+}
+}

@@ -1,0 +1,287 @@
+{
+	"tailwindCSS.includeLanguages": {
+		"html": "html"
+	},
+	"tailwindCSS.emmetCompletions": true,
+
+	"files.associations": {
+		"*.tsx": "typescriptreact",
+		".env*": "dotenv",
+		"*.css": "css",
+		"css": "css"
+	},
+
+	"editor.inlineSuggest.enabled": true,
+	"emmet.preferences": {},
+	"emmet.includeLanguages": {
+		"": "",
+		"javascript": "svelte"
+	},
+	"[html]": {
+		"editor.defaultFormatter": "esbenp.prettier-vscode"
+	},
+	"explorer.confirmDelete": false,
+	"git.suggestSmartCommit": false,
+	"[javascript]": {
+		"editor.defaultFormatter": "esbenp.prettier-vscode"
+	},
+	"[javascriptreact]": {
+		"editor.defaultFormatter": "esbenp.prettier-vscode"
+	},
+	"files.trimTrailingWhitespace": true,
+	"files.trimFinalNewlines": true,
+	"git.confirmSync": false,
+	"[css]": {
+		"editor.defaultFormatter": "esbenp.prettier-vscode"
+	},
+	"explorer.confirmDragAndDrop": false,
+	"update.mode": "manual",
+	"terminal.integrated.env.windows": {},
+	"javascript.updateImportsOnFileMove.enabled": "always",
+
+	"settingsSync.ignoredExtensions": [
+		"amazonwebservices.aws-toolkit-vscode",
+		"chakrounanas.turbo-console-log",
+		"github.copilot",
+		"github.copilot-chat",
+		"github.copilot-labs",
+		"wallabyjs.quokka-vscode",
+		"ms-vscode.vscode-typescript-next",
+		"codeium.codeium",
+		"svelte.svelte-vscode",
+		"shalldie.background",
+		"katsute.code-background",
+		"chakra-ui.panda-css-vscode"
+	],
+	"[json]": {
+		"editor.defaultFormatter": "esbenp.prettier-vscode"
+	},
+	"editor.linkedEditing": true,
+	"css.lint.unknownAtRules": "ignore",
+	"prettier.endOfLine": "auto",
+	"editor.largeFileOptimizations": false,
+	"[jsonc]": {
+		"editor.defaultFormatter": "esbenp.prettier-vscode"
+	},
+	"tailwindCSS.experimental.classRegex": [],
+	"tailwindCSS.experimental.configFile": null,
+	"editor.bracketPairColorization.independentColorPoolPerBracketType": true,
+	"git.autoRepositoryDetection": false,
+	"editor.tokenColorCustomizations": {
+		"[*Light*]": {
+			"textMateRules": [
+				{
+					"scope": "ref.matchtext",
+					"settings": {
+						"foreground": "#770f0f"
+					}
+				}
+			]
+		},
+		"[*Dark*]": {
+			"textMateRules": [
+				{
+					"scope": "ref.matchtext",
+					"settings": {
+						"foreground": "#fff"
+					}
+				}
+			]
+		}
+	},
+	"dotenv.enableAutocloaking": false,
+	"errorLens.onSave": true,
+	"errorLens.enabled": true,
+	"errorLens.statusBarMessageEnabled": true,
+	"errorLens.statusBarColorsEnabled": true,
+	"[typescript]": {
+		"editor.defaultFormatter": "esbenp.prettier-vscode"
+	},
+	"security.workspace.trust.untrustedFiles": "open",
+	"diffEditor.codeLens": true,
+	"totalTypeScript.hideAllTips": false,
+	"totalTypeScript.hideBasicTips": false,
+	"codesnap.realLineNumbers": true,
+	"codesnap.showWindowTitle": true,
+	"codesnap.transparentBackground": true,
+	"prettier.useTabs": true,
+	"editor.useTabStops": true,
+	"diffEditor.ignoreTrimWhitespace": false,
+	"git.openRepositoryInParentFolders": "never",
+	"editor.cursorSmoothCaretAnimation": "on",
+	"terminal.integrated.fontSize": 16,
+	"terminal.integrated.fontFamily": "'FiraCode Nerd Font',  monospace",
+	"terminal.integrated.fontWeight": "260",
+	"turboConsoleLog.logMessageSuffix": " :- ",
+	"turboConsoleLog.delimiterInsideMessage": "",
+	"turboConsoleLog.quote": "'",
+	"terminal.integrated.cursorStyle": "line",
+	"terminal.integrated.cursorBlinking": true,
+	"git.ignoreMissingGitWarning": true,
+	"git.showActionButton": {
+		"commit": false
+	},
+	"scm.diffDecorationsGutterPattern": {
+		"modified": false
+	},
+	"scm.diffDecorationsGutterVisibility": "hover",
+	"scm.diffDecorationsGutterWidth": 1,
+	"editor.fontLigatures": "'ss02'",
+	"terminal.integrated.fontWeightBold": "normal",
+	"workbench.startupEditor": "none",
+	"workbench.editor.empty.hint": "hidden",
+	"editor.fontWeight": "260",
+	"editor.defaultFormatter": "esbenp.prettier-vscode",
+	"editor.fontFamily": "  'Cascadia Code',  monospace",
+	"svg.preview.mode": "svg",
+	"emmet.showSuggestionsAsSnippets": true,
+	"terminal.integrated.shellIntegration.suggestEnabled": true,
+	"debug.console.acceptSuggestionOnEnter": "on",
+	"editor.minimap.enabled": false,
+	"cSpell.minWordLength": 3,
+	"cSpell.showAutocompleteSuggestions": true,
+	"terminal.integrated.defaultProfile.windows": "Command Prompt",
+	"svelte.enable-ts-plugin": true,
+
+	"cSpell.userWords": [
+		"Gaurav",
+		"Hono",
+		"Jatt",
+		"jwt",
+		"nocheck",
+		"supabase",
+		"todos"
+	],
+	"terminal.integrated.lineHeight": 1.5,
+	"editor.lineHeight": 1.5,
+	"editor.fontSize": 18,
+	"svelte.language-server.debug": true,
+	"svelte-intellisense.trace.server": "messages",
+	"cSpell.suggestionMenuType": "quickFix",
+	"git.autofetch": true,
+	"tabnine.experimentalAutoImports": true,
+	"errorLens.editorHoverPartsEnabled": {
+		"messageEnabled": true,
+		"sourceCodeEnabled": true,
+		"buttonsEnabled": true
+	},
+	"errorLens.errorGutterIconColor": "#eca8a8",
+	"errorLens.fontWeight": "260",
+	"errorLens.gutterIconsEnabled": true,
+	"errorLens.gutterIconSet": "emoji",
+	"errorLens.searchForProblemQuery": "https://www.google.com/search?q=$message",
+	"errorLens.gutterEmoji": {
+		"error": "😡",
+		"warning": "😪",
+		"info": "🤗"
+	},
+	"errorLens.gutterIconSize": "70%",
+	"tabnine.receiveBetaChannelUpdates": true,
+	"errorLens.excludeBySource": ["ts(18047)", "ts(1109)"],
+	"codeium.enableSearch": true,
+	"codeium.aggressiveShutdown": true,
+	"editor.minimap.renderCharacters": false,
+	"editor.renderLineHighlight": "none",
+	"editor.links": false,
+	"codeium.enableConfig": {
+		"*": true,
+		"plaintext": true,
+		"prisma": true,
+		"snippets": true,
+		"txt": true,
+		"markdown": true,
+		"ignore": true,
+		"marko": true,
+		"gitignore": true,
+		"dotenv": true
+	},
+	"turboConsoleLog.includeFileNameAndLineNum": false,
+	"prettier.semi": false,
+	"todoHighlighter.include": [
+		"**/*.js",
+		"**/*.ts",
+		"**/*.jsx",
+		"**/*.tsx",
+		"**/*.html",
+		"**/*.vue",
+		"**/*.css",
+		"**/*.scss",
+		"**/*.sass",
+		"**/*.less",
+		"**/*.styl",
+		"**/*.py",
+		"**/*.php",
+		"**/*.md",
+		"**/*.svelte"
+	],
+	"editor.renderWhitespace": "none",
+
+	"editor.tabSize": 3,
+	"prettier.jsxSingleQuote": true,
+	"prettier.singleQuote": true,
+	"cSpell.diagnosticLevel": "Hint",
+	"pieces.setCopilotLocation": true,
+	"explorer.compactFolders": false,
+	"terminal.integrated.rightClickBehavior": "copyPaste",
+	"workbench.colorTheme": "Monokai Pro (Filter Octagon)",
+
+	"[vue]": {
+		"editor.defaultFormatter": "esbenp.prettier-vscode"
+	},
+	"typescript.updateImportsOnFileMove.enabled": "always",
+	"editor.formatOnSave": true,
+
+	"editor.formatOnPaste": true,
+	"[dart]": {
+		"editor.formatOnSave": true,
+		"editor.formatOnType": true,
+		"editor.rulers": [80],
+		"editor.selectionHighlight": false,
+		"editor.suggestSelection": "first",
+		"editor.tabCompletion": "onlySnippets",
+		"editor.wordBasedSuggestions": "off"
+	},
+
+	"editor.guides.bracketPairs": "active",
+	"explorer.excludeGitIgnore": false,
+	"editor.stickyScroll.enabled": false,
+	"codeium.enableCodeLens": false,
+	"editor.glyphMargin": false,
+	"terminal.external.windowsExec": "C:\\Windows\\system32\\cmd.exe",
+	"symbols.hidesExplorerArrows": false,
+	"powermode.enabled": true,
+	"powermode.presets": "exploding-rift",
+	"powermode.combo.location": "statusbar",
+	"powermode.combo.counterEnabled": "show",
+	"workbench.productIconTheme": "fluent-icons",
+	"[astro]": {
+		"editor.defaultFormatter": "esbenp.prettier-vscode"
+	},
+	"[svelte]": {
+		"editor.defaultFormatter": "svelte.svelte-vscode"
+	},
+	"workbench.editorAssociations": {
+		"*.db": "sqlite-viewer.option"
+	},
+	"extensions.autoUpdate": false,
+	"[plaintext]": {
+		"editor.defaultFormatter": "esbenp.prettier-vscode"
+	},
+
+	"[snippets]": {
+		"editor.defaultFormatter": "vscode.json-language-features"
+	},
+	"cSpell.useGitignore": false,
+	"htmlhint.options": {},
+	"editor.lineNumbersMinChars": 1,
+	"editor.folding": true,
+	"editor.scrollbar.verticalScrollbarSize": 10,
+	"editor.scrollbar.horizontal": "visible",
+	"editor.scrollbar.horizontalScrollbarSize": 15,
+	"workbench.editor.enablePreview": false,
+	"workbench.iconTheme": "eyecons",
+	"files.autoSave": "onFocusChange",
+	"class-collapse.style.placeholderText": "(●'◡'●)",
+	"class-collapse.functionality.enable": false,
+	"apc.imports": ["file:///C:/Users/GauravJatt/vscode/custom-vscode.css"]
+}

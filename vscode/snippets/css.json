@@ -1,0 +1,14 @@
+{
+	"snippet-.default": {
+		"prefix": ".default",
+		"body": "* {\n    padding: 0px;\n    margin: 0px;\n    box-sizing: border-box;\n    font-family: 'Poppins', sans-serif;\n}",
+		"description": "CSS default"
+	},
+	"add font": {
+		"prefix": ".font",
+		"body": [
+			"font-family: 'Poppins', sans-serif;"
+		],
+		"description": ".font"
+	}
+}

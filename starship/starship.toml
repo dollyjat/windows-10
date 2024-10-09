@@ -1,0 +1,55 @@
+
+# Get editor completions based on the config schema
+"$schema" = 'https://starship.rs/config-schema.json'
+
+# Inserts a blank line between shell prompts
+add_newline = true
+scan_timeout = 100000
+
+# Disable the package module, hiding it from the prompt completely
+[package]
+disabled = false
+
+
+[character]
+success_symbol = ' 😊 [➜](bold green) '
+error_symbol = '[✗](bold red) '
+
+# [memory_usage]
+# disabled = false
+# threshold = -1
+# symbol = '🥣 '
+# style = 'bold blue'
+
+
+[hostname]
+ssh_only = false
+format = '[$ssh_symbol](bold blue)  Admin (bold red)'
+trim_at = '.companyname.com'
+disabled = false
+
+# [username]
+# style_user = 'white bold'
+# style_root = 'black bold'
+# format = 'user: [$user]($style) '
+# disabled = false
+# show_always = true
+
+
+
+[dart]
+symbol = ' '
+
+[bun]
+symbol = '🍔Bun '
+
+[golang]
+symbol = ' '
+
+[nodejs]
+detect_files = ["pnpm-lock.yaml"]
+detect_extensions = [""]
+detect_folders = ["./node_modules/.pnpm"]
+
+ [cmd_duration]
+ format = '🕙 [$duration](bold yellow)'

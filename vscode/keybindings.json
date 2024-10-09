@@ -1,0 +1,109 @@
+// Place your key bindings in this file to override the defaultsauto[]
+[
+	{
+		"key": "alt+oem_2",
+		"command": "turboConsoleLog.displayLogMessage"
+	},
+	{
+		"key": "ctrl+alt+l",
+		"command": "-turboConsoleLog.displayLogMessage"
+	},
+	{
+		"key": "q ctrl+shift",
+		"command": "editor.action.toggleTabFocusMode"
+	},
+	{
+		"key": "ctrl+m",
+		"command": "-editor.action.toggleTabFocusMode"
+	},
+	{
+		"key": "ctrl+m",
+		"command": "workbench.action.toggleZenMode"
+	},
+	{
+		"key": "ctrl+k z",
+		"command": "-workbench.action.toggleZenMode"
+	},
+	{
+		"key": "ctrl+i",
+		"command": "-extension.toggleCamelCase",
+		"when": "editorTextFocus"
+	},
+	{
+		"key": "ctrl+alt+c",
+		"command": "-extension.camelCase"
+	},
+	{
+		"key": "ctrl+alt+c",
+		"command": "editor.action.transformToCamelcase"
+	},
+	{
+		"key": "ctrl+alt+u",
+		"command": "editor.action.transformToUppercase"
+	},
+	{
+		"key": "ctrl+shift+a",
+		"command": "tailwind-fold.toggleAutoFold"
+	},
+	{
+		"key": "ctrl+alt+a",
+		"command": "-tailwind-fold.toggleAutoFold"
+	},
+	{
+		"key": "ctrl+shift+8",
+		"command": "notification.acceptPrimaryAction",
+		"when": "notificationToastsVisible"
+	},
+	{
+		"key": "ctrl+shift+a",
+		"command": "-notification.acceptPrimaryAction",
+		"when": "notificationToastsVisible"
+	},
+	{
+		"key": "ctrl+shift+b",
+		"command": "workbench.action.toggleActivityBarVisibility"
+	},
+	{
+		"key": "ctrl+shift+b",
+		"command": "-workbench.action.tasks.build",
+		"when": "taskCommandsRegistered"
+	},
+	{
+		"key": "ctrl+alt+b",
+		"command": "-workbench.action.toggleAuxiliaryBar"
+	},
+	{
+		"key": "ctrl+alt+m ctrl+alt+m",
+		"command": "workbench.action.search.toggleQueryDetails",
+		"when": "inSearchEditor || searchViewletFocus"
+	},
+	{
+		"key": "ctrl+shift+j",
+		"command": "-workbench.action.search.toggleQueryDetails",
+		"when": "inSearchEditor || searchViewletFocus"
+	},
+	{
+		"key": "ctrl+alt+s",
+		"command": "code-runner.runByLanguage"
+	},
+	{
+		"key": "ctrl+alt+j",
+		"command": "-code-runner.runByLanguage"
+	},
+	{
+		"key": "ctrl+oem_1",
+		"command": "workbench.action.toggleAuxiliaryBar"
+	},
+	{
+		"key": "ctrl+j",
+		"command": "workbench.action.togglePanel"
+	},
+	{
+		"key": "ctrl+j",
+		"command": "-workbench.action.togglePanel"
+	},
+	{
+		"key": "ctrl+oem_7",
+		"command": "workbench.action.terminal.clear"
+	}
+]

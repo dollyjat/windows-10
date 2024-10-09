@@ -1,0 +1,25 @@
+{
+	"addevent": {
+		"prefix": ".addevent",
+		"body": [
+			".addEventListener(\"click\", function () {\r",
+			"    \r",
+			"})"
+		],
+		"description": "addevent"
+	},
+	"Arrow Function in ()": {
+		"prefix": ".afunin",
+		"body": [
+			"() => { }"
+		],
+		"description": "Arrow Function"
+	},
+	"wait 5 secends ": {
+		"prefix": "wait5",
+		"body": [
+			"await new Promise((resolve) => setTimeout(resolve, 5000));"
+		],
+		"description": "wait 5 secends "
+	}
+}
